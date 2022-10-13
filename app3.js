@@ -20,4 +20,12 @@ function getJShand(){
   return js_hand;
 }
 
-function winLose()
+function winLose(user, js){
+  let winLoseStr;
+  
+  if(user == "グー"){
+    if(js == "グー"){
+      winLoseStr = "あいこ";
+    }else if(js == "チョキ")
+  }
+}
