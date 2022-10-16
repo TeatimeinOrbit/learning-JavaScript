@@ -26,6 +26,14 @@ function winLose(user, js){
   if(user == "グー"){
     if(js == "グー"){
       winLoseStr = "あいこ";
-    }else if(js == "チョキ")
+    }else if(js == "チョキ"){
+      winLose = "勝ち";
+    }else if(js == "パー"){
+      winLose == "負け";
+    }
+  }else if(user == "チョキ"){
+    if(js == "グー"){
+      winLose = "負け";
+    }
   }
 }
