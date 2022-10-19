@@ -20,6 +20,7 @@ function getJShand(){
   return js_hand;
 }
 
+//ユーザーの選んだ手とJavaScriptのじゃんけんの手を比べる関数
 function winLose(user, js){
   let winLoseStr;
   
@@ -34,6 +35,19 @@ function winLose(user, js){
   }else if(user == "チョキ"){
     if(js == "グー"){
       winLose = "負け";
+    }else if(js == "チョキ"){
+      winLose =="あいこ";
+    }else if(js == "パー"){
+      winLose = "勝ち";
     }
-  }
+  }else if(user == "パー"){
+    }if(js == "グー"){
+      winLose = "勝ち";
+    }else if(js == "チョキ"){
+      winLose == "負け";
+    }else if(js == "パー"){
+      winLose = "あいこ";
+    }
+    
+    return winLose;
 }
